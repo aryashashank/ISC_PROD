@@ -1,0 +1,64 @@
+.btn-flat{
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
+}
+.navbar-sticky{
+    -webkit-box-shadow: 0 8px 6px -6px black;
+       -moz-box-shadow: 0 8px 6px -6px black;
+            box-shadow: 0 8px 4px -8px black;
+}
+nav{
+    box-shadow: none;
+}
+.homeSlider img{
+    filter: brightness(0.5);
+}
+.homeSlider{
+    height:100vh;
+}
+header{
+    height:50px;
+    
+}
+.wrapper{
+    overflow: scroll;   
+}
+
+.carousel{
+    height:250px;
+}
+.highlighted{
+    margin-top:-100px;
+}
+.showcase{
+    margin-top:100px;
+}
+.navbar-sticky{
+    position: sticky;
+    top:0;
+    z-index:500;
+}
+.justify-content{
+    justify-content: center;
+}
+
+.logoContainer>img{
+    padding-top:5px;
+    width:60px;
+}
+.headingContainer{
+    margin-left: 50px;
+    display: flex;
+    width:100%;
+    position: fixed;
+    z-index:501;
+    float:left;
+    
+}
+.headingContainer>h4, .headingContainer>h5 {
+    margin-top: 11px;
+    text-shadow: 2px 2px 15px black;
+    color: white;
+
+}
+
