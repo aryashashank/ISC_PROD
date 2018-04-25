@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     $('.sidenav').sidenav();
 
-
+    $('.materialboxed').materialbox();
     $(document).scroll(function () {
         let boundingBox = $("#navbar-sticky").get(0).getBoundingClientRect();
         if (boundingBox.top == 0) {
