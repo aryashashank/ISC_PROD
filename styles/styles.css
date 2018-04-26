@@ -38,7 +38,7 @@ header{
     overflow: hidden;
 }
 .card-title{
-    font-weight: bold;
+    font-weight: 500 !important;
 }
 .navbar-sticky{
     position: sticky;
@@ -76,7 +76,9 @@ header{
 .caption{
     margin-top:10%;
 }
-
+.materialboxed{
+    margin:10px;
+}
 
 
 
@@ -101,6 +103,7 @@ header{
     padding-top:5px;
     width:50px;
 }
+
   }
 
   @media screen and (max-width: 992px) {
@@ -113,6 +116,9 @@ header{
 }
 #hamberger{
     color:black !important;
+}
+.showcase{
+    margin-top:0px;
 }
   }
 
