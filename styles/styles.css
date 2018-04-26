@@ -11,7 +11,7 @@ nav{
     box-shadow: none;
 }
 .homeSlider img, .parallax>img{
-    filter: brightness(0.5);
+    filter: brightness(0.7);
 }
 .homeSlider{
     height:100vh;
