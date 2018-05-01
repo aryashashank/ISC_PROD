@@ -11,7 +11,7 @@ nav{
     box-shadow: none;
 }
 .homeSlider img, .parallax>img{
-    filter: brightness(0.7);
+    filter: brightness(0.6);
 }
 .homeSlider{
     height:100vh;
@@ -25,16 +25,20 @@ header{
 }
 
 .carousel{
-    height:250px;
+    min-height:250px;
+}
+.carousel-item{
+    padding:10px 20px;
 }
 .highlighted{
     margin-top:-100px;
 }
 .showcase{
     margin-top:-100px;
+    padding-bottom: 20px;
 }
 .card>.card-image{
-    height:160px;
+    height:260px;
     overflow: hidden;
 }
 .card-title{
@@ -62,7 +66,6 @@ header{
 .headingContainer{
     margin-left: 50px;
     display: flex;
-    width:100%;
     position: fixed;
     z-index:501;
     float:left;
@@ -74,10 +77,20 @@ header{
 
 }
 .caption{
-    margin-top:10%;
+    margin-top:20vh;
 }
 .materialboxed{
     margin:10px;
+}
+.social{
+    position: relative;
+    min-height:100px;
+    top:-20px !important;
+    font-size: 40px;
+    overflow: hidden;
+}
+.social i{
+padding:0 10px;
 }
 
 
