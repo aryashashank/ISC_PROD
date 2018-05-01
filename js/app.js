@@ -8,7 +8,7 @@ $(document).ready(function () {
 
 
     var corousel = document.querySelector('.carousel');
-    var corouselInstance = M.Carousel.init(corousel, { fullWidth: false, numVisible:15 });
+    var corouselInstance = M.Carousel.init(corousel, { fullWidth: false, numVisible:15,dist:0,indicators:true });
 
 
     autoplay();
