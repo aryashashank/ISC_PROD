@@ -16,61 +16,68 @@
   <div id="wrapper">
     <header>
       <div class="headingContainer">
-        <div class="logoContainer hide-on-med-and-down">
+        <div class="logoContainer">
           <img class="responsive-img" src="img/LOGO.png">
         </div>
         <h4 class="hide-on-small-only">
-          <strong>Indian Structural Consultancy</strong>
+          <strong>Indian Structural
+            <br class="hideWhenNeeded" />Consultancy</strong>
         </h4>
         <h5 class="show-on-small hide-on-med-and-up">
           <strong>Indian Structural Consultancy</strong>
         </h5>
+
+
+
+
+        <div id="navbar-sticky" class="navbar-sticky">
+          <nav class="transparent">
+            <div>
+              <div class="nav-wrapper">
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                  <i id="hamberger" class="material-icons black-text">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                  <li>
+                    <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">Home</a>
+                  </li>
+                  <li>
+                    <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">About</a>
+                  </li>
+                  <li>
+                    <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">Services</a>
+                  </li>
+                  <li>
+                    <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">Career</a>
+                  </li>
+                  <li>
+                    <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
-
-
-
-    <div id="navbar-sticky" class="navbar-sticky">
-      <nav class="transparent">
-        <div>
-          <div class="nav-wrapper">
-            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
-              <i id="hamberger" class="material-icons black-text">menu</i>
-            </a>
-            <ul class="right hide-on-med-and-down">
-              <li>
-                <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">Home</a>
-              </li>
-              <li>
-                <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">About</a>
-              </li>
-              <li>
-                <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">Services</a>
-              </li>
-              <li>
-                <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">Career</a>
-              </li>
-              <li>
-                <a href="#" class="navbtn waves-effect white-text waves-white btn-flat">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </div>
     <div id="nav-mobile" class="sidenav teal">
       <div class="logoContainer center-align white">
         <img class="responsive-img" src="img/LOGO.png">
       </div>
       <ul class="center-align">
         <li>
-          <a href="#" class="waves-effect white-text waves-white btn-flat">Home</a>
+          <a href="#" class="waves-effect white-text waves-white btn-flat">
+            Home</a>
         </li>
         <li>
-          <a href="#" class="waves-effect white-text waves-white btn-flat">About</a>
+          <a href="#" class="waves-effect white-text waves-white btn-flat">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            About</a>
         </li>
         <li>
-          <a href="#" class="waves-effect white-text waves-white btn-flat">Services</a>
+          <a href="#" class="waves-effect white-text waves-white btn-flat">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            Services</a>
         </li>
         <li>
           <a href="#" class="waves-effect white-text waves-white btn-flat">Career</a>
@@ -124,7 +131,7 @@
               <img src="img/structure_one.jpg">
             </div>
             <div class="card-content center-align">
-              <span class="card-title">Structural Design</span>
+              <span class="card-title">Structural Designing</span>
 
             </div>
           </div>
@@ -135,7 +142,7 @@
               <img src="img/Architecture_one.jpg">
             </div>
             <div class="card-content center-align">
-              <span class="card-title">Architectural Design</span>
+              <span class="card-title">Architectural Designing</span>
             </div>
           </div>
         </div>
@@ -145,15 +152,19 @@
               <img src="img/interior_one.jpg">
             </div>
             <div class="card-content center-align">
-              <span class="card-title">Interior Design</span>
+              <span class="card-title">Interior Designing</span>
 
             </div>
           </div>
         </div>
-        <div class="right-align see-more">
-          <a href="#">
-            <h5 class="grey-text text-darken-3">Know more...</h5>
-          </a>
+        <div class="row">
+          <div class="col offset-m6 m6 s12">
+            <div class="right-align see-more">
+              <a href="#">
+                <h5 class="grey-text text-darken-3">Know more...</h5>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -232,135 +243,219 @@
 
   <div class="showcase-wrapper container">
     <div class="row">
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/4.JPG">
+      <div class="col s12 m4 card showcase-card">
+        <div class=" card-image materialboxed">
+          <img class="responsive-img" src="img/Showcase/4.JPG">
+          <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+        </div>
       </div>
-      <div class="col s12 m4">
-        <img class="responsive-img materialboxed" src="img/Showcase/2.jpg">
+      <div class="col s12 m4 card showcase-card">
+        <div class=" card-image materialboxed">
+          <img class="responsive-img" src="img/Showcase/2.JPG">
+          <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+        </div>
       </div>
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/3.JPG">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m4">
-        <img class="responsive-img materialboxed" src="img/Showcase/1.jpg">
-      </div>
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/6.jpg">
-      </div>
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/8.jpg">
+      <div class="col s12 m4 card showcase-card">
+        <div class=" card-image materialboxed">
+          <img class="responsive-img" src="img/Showcase/3.JPG">
+          <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+        </div>
       </div>
     </div>
-    <div class="row">
+  
+  <div class="row">
 
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/5.jpg">
-      </div>
 
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/7.jpg">
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/1.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
       </div>
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/11.jpeg">
+    </div>
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/6.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
       </div>
+    </div>
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/8.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
 
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/5.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+      </div>
     </div>
-    <div class="row">
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/13.jpeg">
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/7.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
       </div>
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/12.jpeg">
+    </div>
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/11.jpeg">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
       </div>
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/14.jpeg">
-      </div>
+    </div>
 
-    </div>
-    <div class="row">
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/16.jpg">
+  </div>
+  <div class="row">
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/13.jpeg">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
       </div>
+    </div>
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/12.jpeg">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+      </div>
+    </div>
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/14.jpeg">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+      </div>
+    </div>
 
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/17.jpg">
-      </div>
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/18.jpg">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/19.jpg">
-      </div>
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/21.jpg">
-      </div>
-      <div class="col s12 m4 ">
-        <img class="responsive-img materialboxed" src="img/Showcase/20.jpg">
+
+
+
+  </div>
+  <div class="row">
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/16.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
       </div>
     </div>
-    <div class="right-align see-more">
-      <a href="#">
-        <h5>See More...</h5>
-      </a>
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/17.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+      </div>
     </div>
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/18.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/19.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+      </div>
+    </div>
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/21.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+      </div>
+    </div>
+    <div class="col s12 m4 card showcase-card">
+      <div class=" card-image materialboxed">
+        <img class="responsive-img" src="img/Showcase/20.JPG">
+        <span id="showcase-title" class="card-title showcase-title hide">Image Title</span>
+      </div>
+    </div>
+  </div>
+  <div class="right-align see-more">
+    <a href="#">
+      <h5>See More...</h5>
+    </a>
   </div>
   </div>
 
 
   <footer class="page-footer white">
 
-    <div class="footer-copyright social">
+    <div class="footer-copyright teal social">
       <div class="container center-align">
-        <h4 class="teal-text">Find us</h4>
+        <h4 class="white-text">Find us</h4>
         <a href="#">
-          <i class="fa fa-facebook-square text-darken-3 grey-text"></i>
+          <i class="fa fa-facebook-square text-darken-3 white-text"></i>
         </a>
         <a href="#">
-          <i class="fa fa-linkedin-square text-darken-3 grey-text"></i>
+          <i class="fa fa-linkedin-square text-darken-3 white-text"></i>
         </a>
         <a href="#">
-          <i class="fa fa-map-marker text-darken-3 grey-text"></i>
+          <i class="fa fa-map-marker text-darken-3 white-text"></i>
         </a>
       </div>
 
     </div>
     </div>
-    <div class="container">
+    <div>
       <div class="row">
-        <div class="col l6 s12">
-          <div class="logoContainer hide-on-med-and-down">
+        <div class="col l5 s12 footer-brand">
+          <div class="logoContainer">
             <img class="responsive-img" src="img/LOGO.png">
           </div>
           <h6 class="black-text">Indian Structural Consultancy</h6>
+          <h6 class="black-text">
+            <a class="link" href="/home">Home</a>
+            ·
+            <a class="link" href="/about">About</a>
+            ·
+            <a class="link" href="/services">Services</a>
+            ·
+            <a class="link" href="/career">Career</a>
+            ·
+            <a class="link" href="/contact">Contact</a>
+            </li>
+          </h6>
+        </div>
+        <div class="col l4 s12 center-align footer-address black-text">
+          <div class="address-footer">
+            <div class="inline">
+              <i class="fa fa-map-marker add"></i>
+            </div>
+            <div class="inline">
+              <p>409&#8259;Pukhraj Corporate,
+                <br> Navlakha Main Road,
+                <br>Indore &#8259; 452001(M.P.), India</p>
+            </div>
+          </div>
+          <div class="address-footer">
+            <div class="inline">
+              <i class="fa fa-phone"></i>
+            </div>
+            <div class="inline">
+              <p>+91 7000621412</p>
+            </div>
+          </div>
+          <div class="address-footer">
+            <div class="inline">
+              <i class="fa fa-envelope"></i>
+            </div>
+            <div class="inline">
+              <p>structures@indianstructural.com</p>
+            </div>
+          </div>
 
         </div>
-        <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 1</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 2</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 3</a>
-            </li>
-            <li>
-              <a class="grey-text text-lighten-3" href="#!">Link 4</a>
-            </li>
-          </ul>
+        <div class="col l3 s12 footer-knowmore white-text">
+          <button href="#" class="navbtn waves-effect teal btn-flat whiteText"> Know More About Us</button>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
+    <div class="footer-copyright teal">
       <div class="container">
-        © 2014 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        <div class="center-align white-text">Site developed and maintained by
+          <a href="https://www.linkedin.com/in/shashank-arya-14a5ba5a" class="white-text" target="_blank">Shashank Arya</a>
+        </div>
       </div>
     </div>
   </footer>

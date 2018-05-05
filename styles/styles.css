@@ -1,3 +1,19 @@
+
+
+body::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+ 
+body::-webkit-scrollbar-thumb {
+  background-color:rgba(0,0,0,0.5);
+  outline:none;
+  border-radius: 15px;
+}
+
+ 
+
+
 .btn-flat{
     margin-left: 0 !important; 
     margin-right: 0 !important;
@@ -16,12 +32,9 @@ nav{
 .homeSlider{
     height:100vh;
 }
-header{
-    height:50px;
-    
-}
+
 .wrapper{
-    overflow: scroll;   
+    overflow: scroll;
 }
 
 .carousel{
@@ -45,8 +58,10 @@ header{
     font-weight: 500 !important;
 }
 .navbar-sticky{
-    position: sticky;
-    top:0;
+    position: fixed;
+    top:45px;
+    right:0;
+    left:0;
     z-index:500;
 }
 .zIndex{
@@ -58,22 +73,27 @@ header{
 .valign-wrapper{
     height:100%;
 }
+.logoContainer{
+    z-index: inherit;
+}
 
 .logoContainer>img{
     padding-top:5px;
-    width:60px;
+    width:90px;
+
 }
-.headingContainer{
-    margin-left: 50px;
+.headingContainer {
+    width:100%;
+    padding-left: 50px;
     display: flex;
     position: fixed;
     z-index:501;
-    float:left;
 }
 .headingContainer>h4, .headingContainer>h5 {
     margin-top: 11px;
     text-shadow: 2px 2px 15px black;
     color: white;
+    z-index: inherit;
 
 }
 .caption{
@@ -86,15 +106,48 @@ header{
     position: relative;
     min-height:100px;
     top:-20px !important;
-    font-size: 40px;
     overflow: hidden;
 }
 .social i{
 padding:0 10px;
+font-size: 40px;
 }
-
-
-
+.inline i{
+    font-size: 30px;
+    }
+.link{
+    color:black !important;
+}
+.footer-brand, .footer-knowmore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height:260px;
+    padding-left:50px;
+}
+.footer-knowmore{
+    padding:0;
+    align-items: baseline;
+}
+.whiteText{
+    color: #fff !important;
+}
+.showcase-card{
+    margin:10px 10px;
+    width:31% !important;
+    border-radius: 5px;
+}
+.address-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+.inline{
+    padding: 10px;
+}
 
 
 
@@ -116,9 +169,13 @@ padding:0 10px;
     padding-top:5px;
     width:50px;
 }
+.showcase-card{
+    width:100% !important;
+    
+}
 
   }
-
+ 
   @media screen and (max-width: 992px) {
     .navbar-sticky{
     position: fixed;
@@ -129,9 +186,28 @@ padding:0 10px;
 }
 #hamberger{
     color:black !important;
+    z-index: 502;
 }
 .showcase{
     margin-top:0px;
+}
+.logoContainer>img{
+    width:50px;
+}
+
+.headingContainer{
+    height: 0;
+}
+.hideWhenNeeded{
+    display: none;
+}
+.footer-knowmore{
+    align-items: center;
+}
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
   }
 
