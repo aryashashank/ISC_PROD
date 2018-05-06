@@ -148,7 +148,9 @@ font-size: 40px;
 .inline p{
     font-weight: 500;
 }
-
+.focus{
+    background: rgba(0, 0, 0, 0.1);
+}
 
 
 
