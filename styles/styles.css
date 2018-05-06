@@ -97,7 +97,7 @@ nav{
 
 }
 .caption{
-    margin-top:20vh;
+    margin-top:30vh;
 }
 .materialboxed{
     margin:10px;
@@ -153,6 +153,13 @@ font-size: 40px;
 }
 
 
+.justify-text{
+    text-align: justify;
+}
+.border{
+    border-right: 1px solid #ababab;
+}
+
 
 
 
@@ -170,6 +177,10 @@ font-size: 40px;
    .logoContainer>img{
     padding-top:5px;
     width:50px;
+}
+.border{
+    border:none;
+    border-bottom: 1px solid #ababab;
 }
 
 
