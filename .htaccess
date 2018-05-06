@@ -1,3 +1,2 @@
 RewriteEngine On
 RewriteBase /
-DirectoryIndex home.html
