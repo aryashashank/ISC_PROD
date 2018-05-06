@@ -35,7 +35,6 @@ $(document).ready(function () {
 
         }
         else {
-            console.log(boundingBox.top);
             $('#navbar-sticky').removeClass('white');
             $('.headingContainer').removeClass('white');
             $('#hamberger').addClass('white-text').removeClass('black-text');

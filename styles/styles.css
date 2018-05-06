@@ -134,11 +134,8 @@ font-size: 40px;
 .whiteText{
     color: #fff !important;
 }
-.showcase-card{
-    margin:10px 10px;
-    width:31% !important;
-    border-radius: 5px;
-}
+
+
 .address-footer{
     display: flex;
     flex-direction: row;
@@ -147,6 +144,9 @@ font-size: 40px;
 }
 .inline{
     padding: 10px;
+}
+.inline p{
+    font-weight: 500;
 }
 
 
@@ -169,10 +169,7 @@ font-size: 40px;
     padding-top:5px;
     width:50px;
 }
-.showcase-card{
-    width:100% !important;
-    
-}
+
 
   }
  
