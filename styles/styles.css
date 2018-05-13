@@ -47,7 +47,6 @@ nav{
     margin-top:-100px;
 }
 .showcase{
-    margin-top:-100px;
     padding-bottom: 20px;
 }
 .card>.card-image{
@@ -70,11 +69,21 @@ nav{
 .justify-content{
     justify-content: center;
 }
+.try-center{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
 .valign-wrapper{
     height:100%;
 }
 .logoContainer{
     z-index: inherit;
+}
+#map{
+    margin: 50px 0;
+    height:400px;
 }
 
 .logoContainer>img{
@@ -96,8 +105,26 @@ nav{
     z-index: inherit;
 
 }
+
+.service-structure>.card-image{
+    height:100%;
+}
 .caption{
     margin-top:30vh;
+}
+.collection, .collection-item{
+    border:none !important;
+}
+
+.transparent-black{
+    background: rgba(0, 0, 0, 0.2);
+    /* margin-bottom:5px; */
+}
+.vision-wrapper{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .materialboxed{
     margin:10px;
