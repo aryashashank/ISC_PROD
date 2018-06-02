@@ -32,15 +32,19 @@ nav{
 .homeSlider{
     height:100vh;
 }
+.contactTop{
+    height:120px !important;
+    background: #009688;
+}
 
 .wrapper{
     overflow: scroll;
 }
 
 .carousel{
-    min-height:250px;
+    max-height:250px;
 }
-.carousel-item{
+.carousel-item{ 
     padding:10px 20px;
 }
 .highlighted{
@@ -82,9 +86,14 @@ nav{
     z-index: inherit;
 }
 #map{
-    margin: 50px 0;
-    height:400px;
+    margin: 50px auto;
+    height:450px;
+    width:100%;
 }
+small{
+    font-size:13px;
+}
+
 
 .logoContainer>img{
     padding-top:5px;
@@ -106,6 +115,16 @@ nav{
 
 }
 
+.card{
+    height:100%;
+}
+section{
+    background:#009688;
+}
+.small{
+    height:100px;
+ max-height:130px;   
+}
 .service-structure>.card-image{
     height:100%;
 }
@@ -117,7 +136,7 @@ nav{
 }
 
 .transparent-black{
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(143, 143, 143, 0.466);
     /* margin-bottom:5px; */
 }
 .vision-wrapper{
