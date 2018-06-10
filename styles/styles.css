@@ -140,6 +140,9 @@ small{
 .serviceCaption{
     margin-top: 10vh;
 }
+.inline-block{
+    display: inline-block;
+}
  .collection-item{
     font-weight: 500;
     border-bottom: 1px solid #e0e0e0 !important; 
