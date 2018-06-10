@@ -32,6 +32,10 @@ nav{
 .homeSlider{
     height:100vh;
 }
+.serviceSlider{
+    height:auto;
+
+}
 .contactTop{
     height:120px !important;
     background: #009688;
@@ -133,10 +137,19 @@ small{
 .caption{
     margin-top:30vh;
 }
-.collection, .collection-item{
+.serviceCaption{
+    margin-top: 10vh;
+}
+ .collection-item{
+    font-weight: 500;
+    border-bottom: 1px solid #e0e0e0 !important; 
+}
+.collection{
     border:none !important;
 }
-
+.small-text{
+    font-size: 20px !important;
+}
 .transparent-black{
     background: rgba(143, 143, 143, 0.466);
     /* margin-bottom:5px; */
