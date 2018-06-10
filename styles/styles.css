@@ -118,9 +118,11 @@ small{
 .card{
     height:100%;
 }
-section{
-    background:#009688;
+.card.large{
+    height:550px;
 }
+
+
 .small{
     height:100px;
  max-height:130px;   
@@ -228,7 +230,9 @@ font-size: 40px;
     border:none;
     border-bottom: 1px solid #ababab;
 }
-
+.card.large{
+    height:auto;
+}
 
   }
  
