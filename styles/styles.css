@@ -140,6 +140,9 @@ small{
 .serviceCaption{
     margin-top: 10vh;
 }
+.career-slider{
+    background-position: initial !important;
+}
 .inline-block{
     display: inline-block;
 }
